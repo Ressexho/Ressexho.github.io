@@ -540,7 +540,7 @@ function checkPassword() {
                         <p>Datos de contacto:</p><br>
                         Tel: 6642575813<br><br><hr><br>
                         <p>Datos de tu pedido</p><br><hr><br>
-                        <form id="myForm" method="post">
+                        <form id="myForm" action="registar.php" method="post">
                             <label for="name">Nombre:</label>
                             <input type="text" id="name" name="name"><br>
 
@@ -555,9 +555,6 @@ function checkPassword() {
 
                             <input type="submit" name="register" class="btn"><br>
                         </form>
-                        <?php 
-                            include("registrar.php");
-                        ?>
                         <hr>
                         <center>
                             <h1>Encuesta</h1><br><hr><br>
